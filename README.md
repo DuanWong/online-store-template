@@ -21,17 +21,17 @@ The site is fully responsive and features smooth navigation with meaningful erro
 
 ## 📄 Pages
 
-**Home** 
-Displays product list with filtering/sorting options
+**Home Page** 
+- Displays product list with filtering/sorting options
 ![Home Page](./src/img/home-page.png)
 
-**Product**
-Shows detailed product info (image, price, description, etc.) + related items
+**Product Page**
+- Shows detailed product info (image, price, description, etc.) + related items
 ![Product Page 1](./src/img/product-page-1.png)
 ![Product Page 2](./src/img/product-page-2.png)
 
-**NotFound**
-Shown when user navigates to an invalid URL (404 page)
+**NotFound Page**
+- Shown when user navigates to an invalid URL (404 page)
 ![NotFound Page](./src/img/notfound-page.png)
 
 ---
@@ -48,11 +48,11 @@ Shown when user navigates to an invalid URL (404 page)
 ## 📦 Getting Started
 
 - **Clone the repo**
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+-- git clone https://github.com/your-username/your-repo-name.git
+-- cd your-repo-name
 
 - **Install dependencies**
-npm install
+-- npm install
 
 - **Start the development server**
-npm start
+-- npm start
