@@ -7,11 +7,9 @@
 
 # testing
 /coverage
-/src/app.js
 
 # production
 /build
-.App.js
 # misc
 .DS_Store
 .env.local
