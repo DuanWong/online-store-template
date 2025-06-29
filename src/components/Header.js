@@ -1,13 +1,16 @@
 import { Link, NavLink } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
 import { FaUser } from 'react-icons/fa';
+import logo from '../img/logo.png';
 import '../css/header.css';
 
 function Header() {
     return (
         <header>
             <div className='header-container'>
-                <h1 className="store-name">Fake Store</h1>
+                <div className="header-logo">
+                    <img src={logo} alt="Logo" />
+                </div>
                 <div>
                     <nav>
                         <ul className='header-list'>

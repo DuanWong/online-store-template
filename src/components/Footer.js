@@ -36,7 +36,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025 Fake Store. All rights reserved.</p>
+        <p>© 2025 ChicBuy. All rights reserved.</p>
         <div className="social-icons">
           <a href="https://facebook.com" className="facebook" target="_blank" rel="noopener noreferrer">
             <FaFacebookF />

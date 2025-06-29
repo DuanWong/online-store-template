@@ -48,7 +48,7 @@ h2 {
 .category {
   font-size: 15px;
   color: rgb(80, 80, 80);
-  margin-bottom: 10px;
+  margin: 15px 0;
 }
 
 .product-list {
@@ -59,6 +59,7 @@ h2 {
   font-weight: 500;
   font-size: 25px;
   color:#cf4848;
+  margin: 15px 0;
 }
 
 .product-image {
@@ -69,7 +70,6 @@ h2 {
 .product-description {
   font-size: 20px;
   color: rgb(50, 50, 50);
-  margin-bottom: 10px;
 }
 
 button {
