@@ -12,9 +12,11 @@ function NotFound() {
         <h1>Oops! Page Not Found</h1>
         <p>We couldn't find the page you were looking for.
           It might have been moved or deleted.</p>
-        <Link to="/">
-          <button className="not-found-btn">Back to homepage</button>
-        </Link>
+        <div>
+          <Link to="/">
+            <button className="not-found-btn">Back to homepage</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

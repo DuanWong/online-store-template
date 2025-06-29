@@ -12,36 +12,51 @@
 
 header {
   height: 60px;
-  background-color: rgb(181, 180, 190);
+  background-color: #f1f2f3;
 }
 
 .header-list {
   width:400px;
   display:flex;
+  gap:50px;
   list-style-type: none;
-}
-
-.header-active {
-  border-bottom: 2px solid #f90;
 }
 
 .nav-link {
   color: #000;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .nav-link.active {
-  color: #f90;
+  color: #cf4848;
   font-weight: 600;
 }
 
-.cart-icon {
+.header-icons {
+  display:flex;
+  gap:30px;
+}
+
+.cart-icon, .user-icon {
   color:#000;
-  font-size: 28px;
+  font-size: 25px;
   transition: 0.5s ease;
 }
 
-.cart-icon:hover {
-  color:#f90;
+.cart-icon:hover, .user-icon:hover {
+  color:#cf4848;
 }
+
+.store-name {
+  color:#2f3c4f;
+}
+
+.cart-box, .user-box {
+  display:flex;
+  gap:5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+

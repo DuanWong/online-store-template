@@ -23,7 +23,8 @@ code {
   align-items: center;
   text-align: center;
   margin: 50px;
-  width: 70%;
+  max-width: 1200px;
+  margin: 50px auto;
 }
 
 h2 {
@@ -39,8 +40,13 @@ h2 {
   text-align: left;
 }
 
+.product-title {
+  font-weight: 500;
+  font-size: 30px;
+}
+
 .category {
-  font-size: 10px;
+  font-size: 15px;
   color: rgb(80, 80, 80);
   margin-bottom: 10px;
 }
@@ -52,6 +58,7 @@ h2 {
 .product-price {
   font-weight: 500;
   font-size: 25px;
+  color:#cf4848;
 }
 
 .product-image {
@@ -60,21 +67,22 @@ h2 {
 }
 
 .product-description {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(50, 50, 50);
   margin-bottom: 10px;
 }
 
 button {
   padding: 10px 20px;
-  border-radius: 25px;
+  border-radius: 10px;
   border-style: none;
-  background-color: rgb(175, 175, 1);
+  background-color: #2f3e52;
   transition: 0.2s;
+  color:#fff;
 }
 
 button:hover {
-  background-color: yellow;
+  background-color: #606874;
 }
 
 @media (max-width: 768px) {

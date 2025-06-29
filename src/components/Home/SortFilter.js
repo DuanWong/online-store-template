@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../css/Home-Style/SortFilter.css'; 
 
 function SortFilter({ sortOption, setSortOption }) {

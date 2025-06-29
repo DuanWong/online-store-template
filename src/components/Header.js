@@ -1,12 +1,13 @@
 import { Link, NavLink } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
+import { FaUser } from 'react-icons/fa';
 import '../css/header.css';
 
 function Header() {
     return (
         <header>
             <div className='header-container'>
-                <h1>Fake Store</h1>
+                <h1 className="store-name">Fake Store</h1>
                 <div>
                     <nav>
                         <ul className='header-list'>
@@ -28,9 +29,18 @@ function Header() {
                         </ul>
                     </nav>
                 </div>
-                <Link to="/cart" >
-                    <FaShoppingCart className="cart-icon" />
-                </Link>
+                <div className="header-icons">
+                    <div className="user-box">
+                        <Link to="/user" >
+                            <FaUser className="user-icon" />
+                        </Link>My Account
+                    </div>
+                    <div className="cart-box">
+                        <Link to="/cart" >
+                            <FaShoppingCart className="cart-icon" />
+                        </Link>Cart
+                    </div>
+                </div>
             </div>
         </header>
     );

@@ -28,7 +28,7 @@ function ProductDetails({ product }) {
         <div className='flex product-box'>
           <img src={product.image} alt={product.title} className='product-image' />
           <div className='product-text'>
-            <h2>{product.title}</h2>
+            <p className="product-title">{product.title}</p>
             <p className='product-price'>${product.price}</p>
             <p className='product-description'>{product.description}</p>
             <p className='category'>Category: {product.category}</p>
