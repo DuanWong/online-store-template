@@ -16,7 +16,6 @@
 }
 
 .hero-banner h1 {
-  font-style: italic;
   font-size: 55px;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -101,4 +100,14 @@
   background: linear-gradient(45deg, #334155, #475569);
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(30, 41, 59, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .hero-banner h1 {
+    font-size: 30px;
+  }
+
+  .hero-banner p {
+    font-size: 15px;
+  }
 }

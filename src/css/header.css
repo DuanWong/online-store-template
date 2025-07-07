@@ -66,3 +66,32 @@ header {
   font-weight: 500;
 }
 
+.hamburger {
+  display: none;
+}
+
+/* 小屏下隐藏 */
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    background: #f1f2f3;
+    position: absolute;
+    top: 60px;
+    right: 1rem;
+    padding: 1rem;
+    z-index: 1000;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav.active {
+    display: flex; /* 这句必须有，点击后才能显示！ */
+  }
+
+  .user-box {
+    display:none;
+  }
+}
