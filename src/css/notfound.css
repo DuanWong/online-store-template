@@ -8,6 +8,7 @@
 }
 
 .not-found-content {
+  display:grid;
   place-items: center;
 }
 

@@ -88,3 +88,12 @@
 .social-icons a:hover {
   transform: scale(1.3);
 }
+
+
+@media screen and (max-width: 480px) {
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+  }
+}

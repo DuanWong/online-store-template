@@ -78,7 +78,7 @@ header {
     background: #f1f2f3;
     position: absolute;
     top: 60px;
-    right: 1rem;
+    right: 0;
     padding: 1rem;
     z-index: 1000;
   }
@@ -88,10 +88,18 @@ header {
   }
 
   .nav.active {
-    display: flex; /* 这句必须有，点击后才能显示！ */
+    display: grid; /* 这句必须有，点击后才能显示！ */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
-  .user-box {
+  .header-icons {
     display:none;
+  }
+
+  .header-list {
+    display:grid;
+    width: 100px;
+    place-items: center;
   }
 }

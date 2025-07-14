@@ -10,9 +10,9 @@ function HeroBanner() {
         From smartphones to sportswear, laptops to lifestyle products – find everything you need in one
          trusted destination
       </p>
-      <div className="hero-banner__buttons">
-        <button className="hero-banner__btn explore">Explore More</button>
-        <button className="hero-banner__btn buy">Buy Now</button>
+      <div className="hero-banner-buttons">
+        <button className="hero-banner-btn explore">Explore More</button>
+        <button className="hero-banner-btn buy">Buy Now</button>
       </div>
     </div>
   );

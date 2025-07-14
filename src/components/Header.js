@@ -36,7 +36,7 @@ function Header() {
                     </ul>
                 </nav>
                 <button className="hamburger" onClick={toggleMenu} aria-label="Toggle Menu">
-                    {isOpen ? <FiX size={28} /> : <FiMenu size={28} />}
+                    {isOpen ? <FiX size={18} /> : <FiMenu size={18} />}
                 </button>
                 <div className="header-icons">
                     <div className="user-box">
