@@ -11,8 +11,8 @@ function HeroBanner() {
          trusted destination
       </p>
       <div className="hero-banner-buttons">
-        <button className="hero-banner-btn explore">Explore More</button>
-        <button className="hero-banner-btn buy">Buy Now</button>
+        <button className="hero-banner-btn explore">Explore more</button>
+        <button className="hero-banner-btn buy">Buy now</button>
       </div>
     </div>
   );
